@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1>Hotel Booking Site</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="dashboard.html"><b>Dashboard</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotels.html"><b>Hotels</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"><b>Login</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html"><b>Registration</b></a>
+              </li>
+            
+              <ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                
+                <div><h4>Seven Star Hotels</h4></div>
+                <div class="row g-3">
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                        
+                        <div class="card"  >
+                            <img height="250px" src="https://pix10.agoda.net/hotelImages/91781/-1/7f0b9f0da4368d01884c2057f87c799c.jpg?ca=13&ce=1&s=1024x768" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Roadside</h5>
+                              <p class="card-text">$2000 per </p>
+                              <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+
+                        <div class="card" >
+                            <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g5QKdHCkeZmS1_MwPvJDc9aTVvylIJFPn_Dyp7SiLrVy2iaw_pGGu1E5ifPf6mtSY5A&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Paramount Hote</h5>
+                              <p class="card-text">$1500 per day</p>
+                              <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="250px" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Primland</h5>
+                              <p class="card-text">$2400 per day</p>
+                              <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+
+                        <div class="card" >
+                            <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpgFG4GJeMI4_fosPFFkZYY2sF6Rh2EjXxHg&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Breeze Blows</h5>
+                              <p class="card-text">$4000 per day</p>
+                              <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="250px" src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_590,h_400/https://whatson.ae/wp-content/uploads/2018/10/royal-suite.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hillside Hotel</h5>
+                              <p class="card-text">$4500 per day</p>
+                              <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    
+                    
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                            <div class="card" >
+                                <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8pURJcKvmocGFyZnhqmJR7AWyMVqb2Q6EnQNeK09c_XUCagmmWn1bEHQQ98uMVLezUzY&usqp=CAU" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Better And Better</h5>
+                                  <p class="card-text">$3000 per day</p>
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                    </div>
+
+                    
+                    
+                
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                            <div class="card" >
+                                <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECwfAOKeZqxcJjYR9O81XRI89C_-r0r5VUZc6k2Wv10KKzzXsx3SWqpZbQUoTkJ91xyY&usqp=CAU" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">La Parisienne</h5>
+                                      <p class="card-text">$2600 per day</p>
+                                      <a href="#" class="btn btn-primary">Book Now</a>
+                                    </div>
+                            </div>
+                    </div>
+    
+                    
+
+                    
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTt-t4uPKb406HZfbmL_uJDXfRME_PBZDmoQ&usqp=CAU" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Millenium Hotels & Resorts</h5>
+                                  <p class="card-text">$1200 per day</p>
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+
+                        <div class="card" >
+                            <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60ONeTD9FDNHAPu-0_xMSZQpQSr1b1VjCzA&usqp=CAU" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lake Union Cottage</h5>
+                                  <p class="card-text">$1590 per day</p>
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+
+                        <div class="card" >
+                            <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzAyJGJvXRuDF221Npf9JDEBuqn-lQOLgTw&usqp=CAU" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Secret Mirage</h5>
+                                  <p class="card-text">$1900 per day</p>
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                    <div><h4>Five Star Hotels</h4></div>
+                    <div class="row g-3">
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+
+                        <div class="card" >
+                            <img height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzAyJGJvXRuDF221Npf9JDEBuqn-lQOLgTw&usqp=CAU" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Secret Mirage</h5>
+                                  <p class="card-text">$1900 per day</p>
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                                </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3"></div>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
